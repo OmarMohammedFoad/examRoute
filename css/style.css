@@ -1,0 +1,370 @@
+/** genral-style**/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/** head-style**/
+.layer-bg{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+header{
+    background-image: url(../img/img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#HOME .container a:hover{
+border-bottom: #fff 0.10rem solid;    
+}
+#HOME .navbar{
+    background-color: rgba(0, 0, 0, .3);
+    
+
+}
+
+#HOME  h1::after{
+    content: '';
+    animation-name: typing;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+@keyframes typing {
+    
+    0%{content: "|";}   
+    2%{content: "L|";}   
+    4%{content: "La|";}   
+    6%{content: "Lar|";}   
+    8%{content: "Larr|";}   
+    10%{content: "Larry|";}   
+    11%{content: "Larry |";}   
+    12%{content: "Larry D|";}   
+    14%{content: "Larry Da|";}    
+    16%{content: "Larry Dan|";}   
+    18%{content: "Larry Dani|";}   
+    20%{content: "Larry Danie|";}   
+    22%{content: "Larry Daniel|";}   
+    23%{content: "Larry Daniels|";}   
+    24%{content: "Larry Daniels|";}   
+    25%{content: "Larry Daniels|";}   
+    26%{content: "Larry Daniel|";}   
+    27%{content: "Larry Danie|";}   
+    28%{content: "Larry Dani|";}   
+    29%{content: "Larry Dan|";}   
+    30%{content: "Larry Da|";}   
+    31%{content: "Larry D|";}   
+    32%{content: "Larry |";}      
+    35%{content: "Larry|";}   
+    36%{content: "Larr|";}   
+    37%{content: "Lar|";}   
+    38%{content: "La|";}   
+    39%{content: "L|";}   
+    40%{content: "|";}      
+    42%{content: "D|";}   
+    44%{content: "De|";}   
+    46%{content: "Des|";}   
+    48%{content: "Desi|";}   
+    50%{content: "Desig|";}   
+    52%{content: "Design|";}   
+    54%{content: "Designe|";}   
+    56%{content: "Designer|";}     
+    58%{content: "Designer|";}     
+    60%{content: "Designer|";}          
+    62%{content: "Designe|";}   
+    64%{content: "Design|";}   
+    66%{content: "Desig|";}   
+    68%{content: "Desi|";}   
+    70%{content: "Des|";}   
+    72%{content: "De|";}   
+    74%{content: "Dev|";}   
+    76%{content: "Deve|";}   
+    78%{content: "Develo|";}   
+    80%{content: "Develop|";}   
+    82%{content: "Develope|";}   
+    84%{content: "Developer|";}   
+    86%{content: "Developer|";}   
+    88%{content: "Developer|";}
+    90%{content: "Develope|";}   
+    92%{content: "Develop|";}   
+    94%{content: "Develo|";}   
+    96%{content: "Deve|";}   
+    97%{content: "Dev|";}   
+    98%{content: "De|";}   
+    99%{content: "D|";}   
+    100%{content: "|";}   
+  
+
+}
+.header-icons span{
+     background: rgba(0, 0, 0, 0.3);   
+    margin-right: 10px ;
+}
+.header-icons a{
+    text-decoration: none;
+}
+
+/******about***/
+
+/***services****/
+
+.icon{
+    width: 5rem;
+    height: 5rem;
+    transition: all .5s;
+ line-height: 1.55;
+background-color: #f4f4f4;
+}
+#Services .services-info:hover span{
+   
+    color: #fff;
+    background-color: black;
+   
+   
+}
+#Services  h3::after{
+ content: '';
+ position: absolute;
+ background-image: url(../img/img/dots.png);
+ bottom: -10px;
+ left: 50%;
+ width: 10%;
+ height: 10px;
+ transform:translateX(-50%) ;
+ -webkit-transform:translateX(-50%) ;
+ -moz-transform:translateX(-50%) ;
+ -ms-transform:translateX(-50%) ;
+ -o-transform:translateX(-50%) ;
+}
+
+/**Portfolio**/
+
+#Portfolio .Portfolio-tittel h3::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/img/dots.png);
+    bottom: -10px;
+    left: 50%;
+    width: 10%;
+    height: 10px;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;
+      
+}
+
+#Portfolio .nav-link:hover{
+  border-bottom: black 0.1rem solid;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+    
+}
+#Portfolio .All-items .layer--tap:hover{
+    opacity: 1 !important;
+
+}   
+#Portfolio .All-items  a{
+    text-decoration: none;
+}
+
+
+/***Testimonials***/
+
+#Testimonials .Testimonials-tittel h3::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/img/dots.png);
+    bottom: -10px;
+    left: 50%;
+    width: 10%;
+    height: 10px;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;    
+}
+
+
+
+#Testimonials .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#Testimonials .carousel-item img{
+    width: 10%;
+}
+
+/*****details*****/
+
+.details .number-customer::after{
+    content: '';
+    animation-name: number;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes number{
+    0%{content: "50";}   
+    10%{content: "100";}   
+    20%{content: "150";}   
+    30%{content: "250";}   
+    40%{content: "350";}   
+    50%{content: "450";}   
+    60%{content: "550";}   
+    70%{content: "650";}   
+    80%{content: "750";}   
+    90%{content: "850";}   
+    100%{content: "850";}   
+}
+.details .number-project::after{
+    content: '';
+    animation-name: project ;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+@keyframes project{
+    0%{content: "50";}   
+    10%{content: "100";}   
+    20%{content: "120";}   
+    30%{content: "150";}   
+    40%{content: "170";}   
+    50%{content: "190";}   
+    60%{content: "200";}   
+    70%{content: "210";}   
+    80%{content: "220";}   
+    90%{content: "230";}   
+    100%{content: "230";}   
+}
+.details .number-code::after{
+    content: '';
+    animation-name: code ;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+@keyframes code{
+    0%{content: "1000";}   
+    10%{content: "2000";}   
+    20%{content: "3000";}   
+    30%{content: "4000";}   
+    40%{content: "5000";}   
+    50%{content: "6000";}   
+    60%{content: "7000";}   
+    70%{content: "8000";}   
+    80%{content: "9000";}   
+    90%{content: "9450";}   
+    100%{content: "9450";}   
+}
+
+.details .number-file::after{
+    content: '';
+    animation-name: file ;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+
+}
+@keyframes file{
+    0%{content: "50";}   
+    10%{content: "100";}   
+    20%{content: "150";}   
+    30%{content: "200";}   
+    40%{content: "250";}   
+    50%{content: "300";}   
+    60%{content: "450";}   
+    70%{content: "550";}   
+    80%{content: "650";}   
+    90%{content: "780";}   
+    100%{content: "780";}   
+}
+/****Blog***/
+#Blog .Blog-tittel h3::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/img/dots.png);
+    bottom: -17px;
+    left: 50%;
+    width: 10%;
+    height: 10px;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ;    
+}
+#Blog .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#Blog .blog-info .blog-img:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.blog-img{overflow: hidden;}
+
+/** Contact***/
+
+#Contact .Contact-tittel h3::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/img/dots.png);
+    bottom: -17px;
+    left: 50%;
+    width: 10%;
+    height: 10px;
+    transform:translateX(-50%) ;
+    -webkit-transform:translateX(-50%) ;
+    -moz-transform:translateX(-50%) ;
+    -ms-transform:translateX(-50%) ;
+    -o-transform:translateX(-50%) ; 
+}
+
+#Contact .contact-details .contact-info:hover span{
+    background-color: black;
+    color: white;
+}
+
+#Contact .contact-input .name input{
+    width: 95%;
+    height: 35PX;
+    border-color: transparent;
+}
+#Contact .contact-input .email input{
+    width: 95%;
+    height: 35PX;
+    border-color: transparent;
+}
+#Contact .contact-input .comment textarea{
+    width: 98%;
+    height: 10rem;
+    border-color: transparent;
+}
+#Contact .contact-details .button-contact .btn-dark:hover{
+    background-color: transparent;
+    color: black;
+}
